@@ -1,6 +1,7 @@
 function firstWord(str) {
-      let index = str.indexOf(" "); 
-let res = str.substring(0, index !== -1 ? index : str.length);
+  let a=str.trim()
+      let index = a.indexOf(" "); 
+let res = a.substring(0, index !== -1 ? index : a.length);
 	return res
 }
 
